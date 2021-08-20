@@ -1,0 +1,14 @@
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\netcoreapp3.1\ShopManagment.Domain.deps.json
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\netcoreapp3.1\ShopManagment.Domain.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\netcoreapp3.1\ShopManagment.Domain.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\netcoreapp3.1\0_Framework.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\netcoreapp3.1\0_Framework.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\netcoreapp3.1\ShopManagment.Domain.csprojAssemblyReference.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\netcoreapp3.1\ShopManagment.Domain.AssemblyInfoInputs.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\netcoreapp3.1\ShopManagment.Domain.AssemblyInfo.cs
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\netcoreapp3.1\ShopManagment.Domain.csproj.CoreCompileInputs.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\netcoreapp3.1\ShopManagment.Domain.csproj.CopyComplete
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\netcoreapp3.1\ShopManagment.Domain.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\netcoreapp3.1\ShopManagment.Domain.pdb

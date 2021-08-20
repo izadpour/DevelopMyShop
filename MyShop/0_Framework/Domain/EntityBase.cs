@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _0_Framework.Domain
+namespace _01_Framework.Domain
 {
   public class EntityBase
     {

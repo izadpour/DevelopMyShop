@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using _0_Framework.Domain;
+using _01_Framework.Domain;
 
 namespace ShopManagement.Domain.ProductCategoryAgg
 {
@@ -16,6 +16,10 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
 
+        protected ProductCategory()
+        {
+            
+        }
         public ProductCategory(string name, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug)
         {
             Name = name;

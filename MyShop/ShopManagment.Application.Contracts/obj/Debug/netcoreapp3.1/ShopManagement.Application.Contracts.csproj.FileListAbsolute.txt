@@ -1,0 +1,12 @@
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.deps.json
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\bin\Debug\netcoreapp3.1\01_Framework.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\bin\Debug\netcoreapp3.1\01_Framework.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.csprojAssemblyReference.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.AssemblyInfo.cs
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.csproj.CopyComplete
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Application.Contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.pdb
