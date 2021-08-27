@@ -10,5 +10,7 @@ namespace ShopManagement.Application.Contracts.ProductCategoryAgg
 
         EditProductCategory GetDetails(long id);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
+
+        List<ProductCategoryViewModel> GetProductCategories();
     }
 }

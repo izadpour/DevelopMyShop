@@ -2,7 +2,7 @@
 {
     public class ValidationMessages
     {
-        public const string IsRequired = "این مقدار نمی تواند خالی باشد";
+       
         public const string RequiredMessage = "وارد نمودن {0} الزامی است";
         public const string EmailAddressMessage = "ایمیل وارد شده صحیح نمی باشد";
         public const string StringLengthMessage = "{0} باید دارای حداقل {2} کاراکتر و حداکثر دارای {1} کاراکتر باشد";

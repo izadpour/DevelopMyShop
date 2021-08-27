@@ -1,6 +1,8 @@
 G:\DevelopMyShop\MyShop\0_Framework\bin\Debug\netcoreapp3.1\01_Framework.deps.json
 G:\DevelopMyShop\MyShop\0_Framework\bin\Debug\netcoreapp3.1\01_Framework.dll
 G:\DevelopMyShop\MyShop\0_Framework\bin\Debug\netcoreapp3.1\01_Framework.pdb
+G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\netcoreapp3.1\01_Framework.csproj.AssemblyReference.cache
+G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\netcoreapp3.1\01_Framework.GeneratedMSBuildEditorConfig.editorconfig
 G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\netcoreapp3.1\01_Framework.AssemblyInfoInputs.cache
 G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\netcoreapp3.1\01_Framework.AssemblyInfo.cs
 G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\netcoreapp3.1\01_Framework.csproj.CoreCompileInputs.cache

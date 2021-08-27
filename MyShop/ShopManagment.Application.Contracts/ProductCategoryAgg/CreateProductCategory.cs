@@ -19,11 +19,11 @@ namespace ShopManagement.Application.Contracts.ProductCategoryAgg
         [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLengthMessage)]
         public string Picture { get; set; }
 
-        [Display(Name = "تگ تصویر")]
+        [Display(Name = "تگ عکس")]
         [MaxLength(255, ErrorMessage = ValidationMessages.MaxLengthMessage)]
         public string PictureAlt { get; set; }
 
-        [Display(Name = "عنوان تصویر")]
+        [Display(Name = "عنوان عکس")]
         [MaxLength(500, ErrorMessage = ValidationMessages.MaxLengthMessage)]
         public string PictureTitle { get; set; }
 

@@ -7,16 +7,16 @@ using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace Shop.Management.Infrastructure.EFCore.Repository
 {
-    public class ProductCategoryRepository :RepositoryBase<long,ProductCategory>, IProductCategoryRepository
+    public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, IProductCategoryRepository
     {
         private readonly ShopContext _context;
 
-        public ProductCategoryRepository(ShopContext context):base(context)
+        public ProductCategoryRepository(ShopContext context) : base(context)
         {
             _context = context;
         }
 
-      
+
         public EditProductCategory GetDetails(long id)
         {
             return _context.productCategories.Select(x => new EditProductCategory
@@ -30,7 +30,7 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
                 Slug = x.Slug
-            }).FirstOrDefault(x => x.Id.Equals(id));
+            }).AsNoTracking().FirstOrDefault(x => x.Id.Equals(id));
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
@@ -49,6 +49,15 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
             }
 
             return query.OrderByDescending(x => x.Id).AsNoTracking().ToList();
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _context.productCategories.Select(x => new ProductCategoryViewModel
+            {
+                Id = x.Id,
+                Name = x.Name
+            }).AsNoTracking().ToList();
         }
     }
 }

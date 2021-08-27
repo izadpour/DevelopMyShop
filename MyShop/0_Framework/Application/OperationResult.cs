@@ -17,7 +17,7 @@
             return this;
         }
 
-        public OperationResult Failed(string message)
+        public OperationResult Failed(string message )
         {
             Message = message;
             IsSuccedded = false;

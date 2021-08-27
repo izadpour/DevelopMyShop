@@ -1,0 +1,17 @@
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\ref\ShopManagement.Domain.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\ShopManagement.Domain.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\01_Framework.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\01_Framework.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
+G:\DevelopMyShop\MyShop\ShopManagment.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
