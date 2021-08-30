@@ -37,8 +37,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 
         public PartialViewResult OnGetCreate()
         {
-            var command = new CreateProduct();
-            command.Categories = _productCategoryApplication.GetProductCategories();
+            var command = new CreateProduct {Categories = _productCategoryApplication.GetProductCategories()};
 
             return Partial("./Create",command);
         }

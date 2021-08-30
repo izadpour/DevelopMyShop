@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DiscountManagement.Infrastructure.Configure;
 
 namespace ServiceHost
 {
@@ -26,6 +27,7 @@ namespace ServiceHost
         {
             var myDbConnectionString = Configuration.GetConnectionString("MyShop");
             ShopManagementBootstrapper.Configure(services, myDbConnectionString);
+            DiscountManagementBootstrapper.Configure(services, myDbConnectionString);
             services.AddRazorPages();
         }
 
@@ -50,11 +52,7 @@ namespace ServiceHost
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapRazorPages();
-            
-            });
+            app.UseEndpoints(endpoints => { endpoints.MapRazorPages(); });
         }
     }
 }

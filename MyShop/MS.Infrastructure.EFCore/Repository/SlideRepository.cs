@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using _0_Framework.Application;
 using _01_Framework.Application;
 using _01_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
@@ -42,7 +43,7 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
                  Picture = x.Picture,
                  Title = x.Title,
                  IsRemoved = x.IsRemoved,
-                 CreationDate=x.CreationDate.ToString(CultureInfo.InvariantCulture)
+                 CreationDate=x.CreationDate.ToFarsi(),
             }).AsNoTracking().OrderByDescending(x=>x.Id).ToList();
             return slideViewModels;
         }

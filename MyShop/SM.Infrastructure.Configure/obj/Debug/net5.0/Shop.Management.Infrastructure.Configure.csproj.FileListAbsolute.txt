@@ -3,10 +3,12 @@ G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\Shop.Manage
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\ref\Shop.Management.Infrastructure.Configure.dll
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\Shop.Management.Infrastructure.Configure.pdb
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\01_Framework.dll
+G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\02_MyShopQuery.dll
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\Shop.Management.Infrastructure.EFCore.dll
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\ShopManagement.Application.dll
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\ShopManagement.Domain.dll
+G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\02_MyShopQuery.pdb
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\Shop.Management.Infrastructure.EFCore.pdb
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\ShopManagement.Application.pdb
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
@@ -21,5 +23,3 @@ G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\obj\Debug\net5.0\Shop.Manage
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\obj\Debug\net5.0\Shop.Management.Infrastructure.Configure.dll
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\obj\Debug\net5.0\ref\Shop.Management.Infrastructure.Configure.dll
 G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\obj\Debug\net5.0\Shop.Management.Infrastructure.Configure.pdb
-G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\02_MyShopQuery.dll
-G:\DevelopMyShop\MyShop\SM.Infrastructure.Configure\bin\Debug\net5.0\02_MyShopQuery.pdb
