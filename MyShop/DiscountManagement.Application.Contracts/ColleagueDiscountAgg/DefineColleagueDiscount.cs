@@ -7,7 +7,7 @@ namespace DiscountManagement.Application.Contracts.ColleagueDiscountAgg
     {
         public long ProductId { get; set; }
         public float DiscountRate { get; set; } 
-        public IEnumerable<ProductViewModel> Products { get; set; }
+        public List<ProductViewModel> Products { get; set; }
 
     }
 }

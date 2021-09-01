@@ -190,3 +190,6 @@ G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastr
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Create.cshtml.g.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Edit.cshtml.g.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Index.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Index.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Create.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Edit.cshtml.g.cs
