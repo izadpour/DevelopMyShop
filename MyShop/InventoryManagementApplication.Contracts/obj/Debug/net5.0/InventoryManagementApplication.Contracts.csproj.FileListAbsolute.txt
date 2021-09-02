@@ -1,0 +1,15 @@
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\bin\Debug\net5.0\InventoryManagementApplication.Contracts.deps.json
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\bin\Debug\net5.0\InventoryManagementApplication.Contracts.dll
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\bin\Debug\net5.0\ref\InventoryManagementApplication.Contracts.dll
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\bin\Debug\net5.0\InventoryManagementApplication.Contracts.pdb
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\bin\Debug\net5.0\01_Framework.dll
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\bin\Debug\net5.0\01_Framework.pdb
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.csproj.AssemblyReference.cache
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.AssemblyInfoInputs.cache
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.AssemblyInfo.cs
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.csproj.CoreCompileInputs.cache
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.csproj.CopyComplete
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.dll
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\ref\InventoryManagementApplication.Contracts.dll
+G:\DevelopMyShop\MyShop\InventoryManagementApplication.Contracts\obj\Debug\net5.0\InventoryManagementApplication.Contracts.pdb

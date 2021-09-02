@@ -86,4 +86,4 @@ namespace InventoryManagement.Domian.InventoryAgg
             CurrentCount = currentCount;
         }
     }
-}
+        

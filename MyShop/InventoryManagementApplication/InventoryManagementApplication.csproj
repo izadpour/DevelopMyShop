@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryManagementApplication.Contracts\InventoryManagementApplication.Contracts.csproj" />
+    <ProjectReference Include="..\InventoryManagement\InventoryManagement.Domian.csproj" />
+  </ItemGroup>
+
 </Project>

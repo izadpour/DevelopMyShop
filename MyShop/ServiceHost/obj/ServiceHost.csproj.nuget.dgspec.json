@@ -452,6 +452,336 @@
         }
       }
     },
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagement.Infrastructure.Configure\\InventoryManagement.Infrastructure.Configure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.Infrastructure.Configure\\InventoryManagement.Infrastructure.Configure.csproj",
+        "projectName": "InventoryManagement.Infrastructure.Configure",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.Infrastructure.Configure\\InventoryManagement.Infrastructure.Configure.csproj",
+        "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
+        "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.Infrastructure.Configure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+              },
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+              },
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj"
+              },
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectName": "InventoryManagement.Infrastructure.EFCore",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
+        "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj"
+              },
+              "G:\\DevelopMyShop\\MyShop\\MS.Infrastructure.EFCore\\Shop.Management.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\MS.Infrastructure.EFCore\\Shop.Management.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
+        "projectName": "InventoryManagementApplication.Contracts",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
+        "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
+        "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+        "projectName": "InventoryManagementApplication",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+        "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
+        "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+              },
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj",
+        "projectName": "InventoryManagement.Domian",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj",
+        "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
+        "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj"
+              },
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "G:\\DevelopMyShop\\MyShop\\MS.Infrastructure.EFCore\\Shop.Management.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -555,6 +885,9 @@
               },
               "G:\\DevelopMyShop\\MyShop\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configure.csproj": {
                 "projectPath": "G:\\DevelopMyShop\\MyShop\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configure.csproj"
+              },
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagement.Infrastructure.Configure\\InventoryManagement.Infrastructure.Configure.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.Infrastructure.Configure\\InventoryManagement.Infrastructure.Configure.csproj"
               },
               "G:\\DevelopMyShop\\MyShop\\SM.Infrastructure.Configure\\Shop.Management.Infrastructure.Configure.csproj": {
                 "projectPath": "G:\\DevelopMyShop\\MyShop\\SM.Infrastructure.Configure\\Shop.Management.Infrastructure.Configure.csproj"

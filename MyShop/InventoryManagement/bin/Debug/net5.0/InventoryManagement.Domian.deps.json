@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "InventoryManagement.Domian/1.0.0": {
         "dependencies": {
-          "01_Framework": "1.0.0"
+          "01_Framework": "1.0.0",
+          "InventoryManagementApplication.Contracts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Domian.dll": {}
@@ -145,6 +146,14 @@
         "runtime": {
           "01_Framework.dll": {}
         }
+      },
+      "InventoryManagementApplication.Contracts/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagementApplication.Contracts.dll": {}
+        }
       }
     }
   },
@@ -253,6 +262,11 @@
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
     },
     "01_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagementApplication.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

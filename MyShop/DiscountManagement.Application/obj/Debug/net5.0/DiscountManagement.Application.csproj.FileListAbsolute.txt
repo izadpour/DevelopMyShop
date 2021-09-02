@@ -5,9 +5,11 @@ G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\Discount
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\01_Framework.dll
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Domain.dll
+G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\01_Framework.pdb
+G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.AssemblyReference.cache
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
@@ -17,5 +19,3 @@ G:\DevelopMyShop\MyShop\DiscountManagement.Application\obj\Debug\net5.0\Discount
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.dll
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
 G:\DevelopMyShop\MyShop\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.pdb
-G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-G:\DevelopMyShop\MyShop\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

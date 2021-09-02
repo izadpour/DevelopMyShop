@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DiscountManagement.Infrastructure.Configure;
+using InventoryManagement.Infrastructure.Configure;
 
 namespace ServiceHost
 {
@@ -28,6 +29,7 @@ namespace ServiceHost
             var myDbConnectionString = Configuration.GetConnectionString("MyShop");
             ShopManagementBootstrapper.Configure(services, myDbConnectionString);
             DiscountManagementBootstrapper.Configure(services, myDbConnectionString);
+            InventoryManagementBootstrapper.Configure(services,myDbConnectionString);
             services.AddRazorPages();
         }
 
