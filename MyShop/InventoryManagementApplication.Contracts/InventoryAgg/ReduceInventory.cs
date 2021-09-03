@@ -1,4 +1,4 @@
-﻿namespace InventoryManagementApplication.Contracts.InventoryAgg
+﻿namespace InventoryManagement.Application.Contracts.InventoryAgg
 {
     public class ReduceInventory:IncreaseInventory
     {

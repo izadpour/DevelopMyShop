@@ -4,8 +4,8 @@ using System.Security.Cryptography.X509Certificates;
 using InventoryManagement.Domian.InventoryAgg;
 using InventoryManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore.Repository;
-using InventoryManagementApplication;
-using InventoryManagementApplication.Contracts.InventoryAgg;
+using InventoryManagement.Application;
+using InventoryManagement.Application.Contracts.InventoryAgg;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

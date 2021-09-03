@@ -10,8 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InventoryManagement.InfrastructureEFCore\InventoryManagement.Infrastructure.EFCore.csproj" />
-    <ProjectReference Include="..\InventoryManagementApplication.Contracts\InventoryManagementApplication.Contracts.csproj" />
-    <ProjectReference Include="..\InventoryManagementApplication\InventoryManagementApplication.csproj" />
+    <ProjectReference Include="..\InventoryManagementApplication.Contracts\InventoryManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\InventoryManagementApplication\InventoryManagement.Application.csproj" />
     <ProjectReference Include="..\InventoryManagement\InventoryManagement.Domian.csproj" />
   </ItemGroup>
 

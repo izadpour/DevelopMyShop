@@ -48,7 +48,8 @@ namespace ShopManagement.Application
 
         public List<SlideViewModel> GetList()
         {
-            return _slideRepository.GetList();
+            var s= _slideRepository.GetList();
+            return s;
         }
 
         public OperationResult Remove(long id)

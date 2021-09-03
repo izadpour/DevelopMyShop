@@ -122,10 +122,11 @@ G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Applicat
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.Configure.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domian.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configure.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
-G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagementApplication.Contracts.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\Shop.Management.Infrastructure.Configure.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\Shop.Management.Infrastructure.EFCore.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
@@ -140,9 +141,10 @@ G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Applicat
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domian.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
-G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagementApplication.Contracts.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\Shop.Management.Infrastructure.EFCore.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
@@ -168,6 +170,12 @@ G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Edit.cshtml.g.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Index.cshtml.g.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Index.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Create.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Edit.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Increase.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Index.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_AdminLayout.cshtml.g.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
@@ -201,5 +209,3 @@ G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.dll
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
-G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagementApplication.dll
-G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\InventoryManagementApplication.pdb

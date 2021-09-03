@@ -174,31 +174,31 @@
           "bin/placeholder/01_Framework.dll": {}
         }
       },
-      "InventoryManagement.Domian/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "01_Framework": "1.0.0",
-          "InventoryManagementApplication.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InventoryManagement.Domian.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InventoryManagement.Domian.dll": {}
-        }
-      },
-      "InventoryManagementApplication.Contracts/1.0.0": {
+      "InventoryManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "01_Framework": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/InventoryManagementApplication.Contracts.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/InventoryManagementApplication.Contracts.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
+        }
+      },
+      "InventoryManagement.Domian/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "InventoryManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Domian.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Domian.dll": {}
         }
       }
     }
@@ -565,21 +565,21 @@
       "path": "../0_Framework/01_Framework.csproj",
       "msbuildProject": "../0_Framework/01_Framework.csproj"
     },
+    "InventoryManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagementApplication.Contracts/InventoryManagement.Application.Contracts.csproj",
+      "msbuildProject": "../InventoryManagementApplication.Contracts/InventoryManagement.Application.Contracts.csproj"
+    },
     "InventoryManagement.Domian/1.0.0": {
       "type": "project",
       "path": "../InventoryManagement/InventoryManagement.Domian.csproj",
       "msbuildProject": "../InventoryManagement/InventoryManagement.Domian.csproj"
-    },
-    "InventoryManagementApplication.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../InventoryManagementApplication.Contracts/InventoryManagementApplication.Contracts.csproj",
-      "msbuildProject": "../InventoryManagementApplication.Contracts/InventoryManagementApplication.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "InventoryManagement.Domian >= 1.0.0",
-      "InventoryManagementApplication.Contracts >= 1.0.0"
+      "InventoryManagement.Application.Contracts >= 1.0.0",
+      "InventoryManagement.Domian >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -588,9 +588,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
-      "projectName": "InventoryManagementApplication",
-      "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+      "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj",
+      "projectName": "InventoryManagement.Application",
+      "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj",
       "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
       "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\obj\\",
       "projectStyle": "PackageReference",
@@ -609,8 +609,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
-              "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+            "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+              "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj"
             },
             "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj": {
               "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj"

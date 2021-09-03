@@ -91,11 +91,11 @@
               "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement.InfrastructureEFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               },
-              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
-                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj"
               },
-              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {
-                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj"
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj"
               },
               "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj": {
                 "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj"
@@ -214,12 +214,12 @@
         }
       }
     },
-    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
-        "projectName": "InventoryManagementApplication.Contracts",
-        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectName": "InventoryManagement.Application.Contracts",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
         "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\obj\\",
         "projectStyle": "PackageReference",
@@ -272,12 +272,12 @@
         }
       }
     },
-    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
-        "projectName": "InventoryManagementApplication",
-        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj",
+        "projectName": "InventoryManagement.Application",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj",
         "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
         "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\obj\\",
         "projectStyle": "PackageReference",
@@ -296,8 +296,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
-                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj"
               },
               "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj": {
                 "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagement\\InventoryManagement.Domian.csproj"
@@ -360,8 +360,8 @@
               "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj": {
                 "projectPath": "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj"
               },
-              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
-                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj"
               }
             }
           }

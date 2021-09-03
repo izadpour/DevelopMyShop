@@ -9,7 +9,7 @@
       "InventoryManagement.Domian/1.0.0": {
         "dependencies": {
           "01_Framework": "1.0.0",
-          "InventoryManagementApplication.Contracts": "1.0.0"
+          "InventoryManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Domian.dll": {}
@@ -147,12 +147,12 @@
           "01_Framework.dll": {}
         }
       },
-      "InventoryManagementApplication.Contracts/1.0.0": {
+      "InventoryManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "01_Framework": "1.0.0"
         },
         "runtime": {
-          "InventoryManagementApplication.Contracts.dll": {}
+          "InventoryManagement.Application.Contracts.dll": {}
         }
       }
     }
@@ -266,7 +266,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "InventoryManagementApplication.Contracts/1.0.0": {
+    "InventoryManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

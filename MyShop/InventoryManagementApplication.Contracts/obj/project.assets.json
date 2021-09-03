@@ -550,9 +550,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
-      "projectName": "InventoryManagementApplication.Contracts",
-      "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
+      "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj",
+      "projectName": "InventoryManagement.Application.Contracts",
+      "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
       "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\obj\\",
       "projectStyle": "PackageReference",

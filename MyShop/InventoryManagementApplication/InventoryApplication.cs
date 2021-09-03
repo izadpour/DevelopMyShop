@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using _01_Framework.Application;
+using InventoryManagement.Application.Contract.Inventory;
+using InventoryManagement.Application.Contracts.InventoryAgg;
 using InventoryManagement.Domian.InventoryAgg;
-using InventoryManagementApplication.Contracts.InventoryAgg;
 
-namespace InventoryManagementApplication
+namespace InventoryManagement.Application
 {
     public class InventoryApplication : IInventoryApplication
     {
@@ -24,6 +25,7 @@ namespace InventoryManagementApplication
 
             Inventory inventory = new Inventory(command.ProductId, command.UnitPrice);
             _inventoryRepository.Create(inventory);
+            _inventoryRepository.SaveChanges();
             return operationResult.Succedded();
         }
 
@@ -99,6 +101,11 @@ namespace InventoryManagementApplication
         public List<InventoryViewModel> Search(InventorySearchModel searchModel)
         {
             return _inventoryRepository.Search(searchModel);
+        }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            return _inventoryRepository.GetOperationLog(inventoryId);
         }
     }
 }

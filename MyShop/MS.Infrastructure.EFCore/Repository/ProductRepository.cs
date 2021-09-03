@@ -26,7 +26,6 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
                     Id = x.Id,
                     Name = x.Name,
                     Code = x.Code,
-                    UnitPrice = x.UnitPrice,
                     ShortDescription = x.ShortDescription,
                     Description = x.Description,
                     Keywords = x.Keywords,
@@ -60,10 +59,8 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
                     Code = x.Code,
                     Name = x.Name,
                     Picture = x.Picture,
-                    UnitPrice = x.UnitPrice,
                     CategoryName = x.Category.Name,
                     CategoryId = x.CategoryId,
-                    IsInStock = x.IsInStock,
                     CreationDate = x.CreationDate.ToFarsi(),
                 });
 

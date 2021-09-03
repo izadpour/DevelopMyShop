@@ -38,13 +38,13 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
         {
             var slideViewModels = _context.Slides.Select(x => new SlideViewModel
             {
-                 Id = x.Id,
-                 Heading = x.Heading,
-                 Picture = x.Picture,
-                 Title = x.Title,
-                 IsRemoved = x.IsRemoved,
-                 CreationDate=x.CreationDate.ToFarsi(),
-            }).AsNoTracking().OrderByDescending(x=>x.Id).ToList();
+                Id = x.Id,
+                Heading = x.Heading,
+                Picture = x.Picture,
+                Title = x.Title,
+                IsRemoved = x.IsRemoved,
+                CreationDate = x.CreationDate.ToFarsi(),
+            }).OrderByDescending(x => x.Id).AsNoTracking().ToList();
             return slideViewModels;
         }
     }

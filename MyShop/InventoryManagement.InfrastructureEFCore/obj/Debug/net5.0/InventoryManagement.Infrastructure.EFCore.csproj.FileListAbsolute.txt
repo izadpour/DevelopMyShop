@@ -5,15 +5,15 @@ G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\01_Framework.dll
+G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\InventoryManagement.Domian.dll
-G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\InventoryManagementApplication.Contracts.dll
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\Shop.Management.Infrastructure.EFCore.dll
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\ShopManagement.Domain.dll
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\InventoryManagement.Domian.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\Shop.Management.Infrastructure.EFCore.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\01_Framework.pdb
-G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\InventoryManagementApplication.Contracts.pdb
+G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement.InfrastructureEFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache

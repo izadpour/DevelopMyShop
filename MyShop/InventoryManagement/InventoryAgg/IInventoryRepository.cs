@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using _01_Framework.Domain;
-using InventoryManagementApplication.Contracts.InventoryAgg;
+using InventoryManagement.Application.Contract.Inventory;
+using InventoryManagement.Application.Contracts.InventoryAgg;
 
 namespace InventoryManagement.Domian.InventoryAgg
 {
@@ -9,5 +10,6 @@ namespace InventoryManagement.Domian.InventoryAgg
         EditInventory GetDetails(long id);
         Inventory GetBy(long productId);
         List<InventoryViewModel> Search(InventorySearchModel searchModel);
+        List<InventoryOperationViewModel> GetOperationLog(long inventoryId);
     }
 }

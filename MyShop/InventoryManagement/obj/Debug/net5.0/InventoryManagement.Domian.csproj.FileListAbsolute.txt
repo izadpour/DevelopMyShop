@@ -3,9 +3,9 @@ G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\InventoryManagement
 G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\ref\InventoryManagement.Domian.dll
 G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\InventoryManagement.Domian.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\01_Framework.dll
-G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\InventoryManagementApplication.Contracts.dll
+G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
 G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\01_Framework.pdb
-G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\InventoryManagementApplication.Contracts.pdb
+G:\DevelopMyShop\MyShop\InventoryManagement\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
 G:\DevelopMyShop\MyShop\InventoryManagement\obj\Debug\net5.0\InventoryManagement.Domian.csproj.AssemblyReference.cache
 G:\DevelopMyShop\MyShop\InventoryManagement\obj\Debug\net5.0\InventoryManagement.Domian.GeneratedMSBuildEditorConfig.editorconfig
 G:\DevelopMyShop\MyShop\InventoryManagement\obj\Debug\net5.0\InventoryManagement.Domian.AssemblyInfoInputs.cache

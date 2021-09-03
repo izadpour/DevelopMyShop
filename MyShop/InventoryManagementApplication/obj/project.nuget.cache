@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "72PozTSCMbk+wmCIXv03yQyv4BwCP4xy8EdCqB8L7HXcm8TC7VBPkPxgFzsKDCcBh0yXdePUdWjPCsxBAYZssA==",
+  "dgSpecHash": "1WUltYw6LkaJxFaQrXU+J09x7nph5mpudzagWbEFIy8Q86lR0BjppCzBmLMQljiZZIUFPF0qdSync4LAWaidxQ==",
   "success": true,
-  "projectFilePath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+  "projectFilePath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication\\InventoryManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\t\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\t\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.9\\microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",

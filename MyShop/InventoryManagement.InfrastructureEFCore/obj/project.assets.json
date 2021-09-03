@@ -1533,31 +1533,31 @@
           "bin/placeholder/01_Framework.dll": {}
         }
       },
-      "InventoryManagement.Domian/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "01_Framework": "1.0.0",
-          "InventoryManagementApplication.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InventoryManagement.Domian.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InventoryManagement.Domian.dll": {}
-        }
-      },
-      "InventoryManagementApplication.Contracts/1.0.0": {
+      "InventoryManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "01_Framework": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/InventoryManagementApplication.Contracts.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/InventoryManagementApplication.Contracts.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
+        }
+      },
+      "InventoryManagement.Domian/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "InventoryManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Domian.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Domian.dll": {}
         }
       },
       "Shop.Management.Infrastructure.EFCore/1.0.0": {
@@ -5875,15 +5875,15 @@
       "path": "../0_Framework/01_Framework.csproj",
       "msbuildProject": "../0_Framework/01_Framework.csproj"
     },
+    "InventoryManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagementApplication.Contracts/InventoryManagement.Application.Contracts.csproj",
+      "msbuildProject": "../InventoryManagementApplication.Contracts/InventoryManagement.Application.Contracts.csproj"
+    },
     "InventoryManagement.Domian/1.0.0": {
       "type": "project",
       "path": "../InventoryManagement/InventoryManagement.Domian.csproj",
       "msbuildProject": "../InventoryManagement/InventoryManagement.Domian.csproj"
-    },
-    "InventoryManagementApplication.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../InventoryManagementApplication.Contracts/InventoryManagementApplication.Contracts.csproj",
-      "msbuildProject": "../InventoryManagementApplication.Contracts/InventoryManagementApplication.Contracts.csproj"
     },
     "Shop.Management.Infrastructure.EFCore/1.0.0": {
       "type": "project",

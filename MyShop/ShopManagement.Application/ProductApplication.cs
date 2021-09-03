@@ -23,7 +23,7 @@ namespace ShopManagement.Application
             }
 
 
-            Product product = new Product(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
+            Product product = new Product(command.Name, command.Code, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords,
                 command.MetaDescription, command.Slug.Slugify(), command.CategoryId);
             _productRepository.Create(product);
@@ -45,7 +45,7 @@ namespace ShopManagement.Application
                 return operationResult.Failed(ApplicationMessages.DuplicateRecord);
             }
 
-            product.Edit(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
+            product.Edit(command.Name, command.Code,  command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords,
                 command.MetaDescription, command.Slug.Slugify(), command.CategoryId);
 
@@ -53,36 +53,7 @@ namespace ShopManagement.Application
             return operationResult.Succedded();
         }
 
-        public OperationResult IsStoke(long id)
-        {
-            OperationResult operationResult = new OperationResult();
-            var product = _productRepository.Get(id);
-            if (product.Equals(null))
-            {
-                return operationResult.Failed(ApplicationMessages.RecordNotFound);
-            }
-
-            product.InStoke();
-            _productRepository.SaveChanges();
-
-            return operationResult.Succedded();
-        }
-
-        public OperationResult NotInStoke(long id)
-        {
-            OperationResult operationResult = new OperationResult();
-            var product = _productRepository.Get(id);
-            if (product.Equals(null))
-            {
-                return operationResult.Failed(ApplicationMessages.RecordNotFound);
-            }
-
-            product.NotInStoke();
-            _productRepository.SaveChanges();
-
-            return operationResult.Succedded();
-        }
-
+       
         public EditProduct GetDetails(long id)
         {
             return _productRepository.GetDetails(id);

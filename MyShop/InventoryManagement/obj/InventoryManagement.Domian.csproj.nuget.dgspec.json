@@ -64,12 +64,12 @@
         }
       }
     },
-    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
+    "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
-        "projectName": "InventoryManagementApplication.Contracts",
-        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj",
+        "projectUniqueName": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectName": "InventoryManagement.Application.Contracts",
+        "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\t\\.nuget\\packages\\",
         "outputPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\obj\\",
         "projectStyle": "PackageReference",
@@ -149,8 +149,8 @@
               "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj": {
                 "projectPath": "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj"
               },
-              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
-                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+              "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj"
               }
             }
           }

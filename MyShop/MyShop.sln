@@ -53,15 +53,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Domian", "IM.Domian", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Application", "IM.Application", "{8CB247E1-EEC3-4151-9E18-BE5A174604E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementApplication", "InventoryManagementApplication\InventoryManagementApplication.csproj", "{01EB417F-7CBF-4586-9717-0AFF71CC16D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Application", "InventoryManagementApplication\InventoryManagement.Application.csproj", "{01EB417F-7CBF-4586-9717-0AFF71CC16D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementApplication.Contracts", "InventoryManagementApplication.Contracts\InventoryManagementApplication.Contracts.csproj", "{5C6767F2-4F5E-4F68-B26C-76ECAF911DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Application.Contracts", "InventoryManagementApplication.Contracts\InventoryManagement.Application.Contracts.csproj", "{5C6767F2-4F5E-4F68-B26C-76ECAF911DA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Infrastructure", "IM.Infrastructure", "{17246B47-3643-4EAC-9C16-5339E68995B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Infrastructure.EFCore", "InventoryManagement.InfrastructureEFCore\InventoryManagement.Infrastructure.EFCore.csproj", "{08291D75-F9B5-4FC1-9DB4-978C5D736414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Infrastructure.Configure", "InventoryManagement.Infrastructure.Configure\InventoryManagement.Infrastructure.Configure.csproj", "{65D7D94E-68FD-467B-AC48-3C44B93AC7E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Infrastructure.Configure", "InventoryManagement.Infrastructure.Configure\InventoryManagement.Infrastructure.Configure.csproj", "{65D7D94E-68FD-467B-AC48-3C44B93AC7E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

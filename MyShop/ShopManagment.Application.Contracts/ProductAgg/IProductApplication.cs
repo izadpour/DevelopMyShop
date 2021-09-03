@@ -8,8 +8,7 @@ namespace ShopManagement.Application.Contracts.ProductAgg
     {
         OperationResult Create(CreateProduct command);
         OperationResult Edit(EditProduct command);
-        OperationResult IsStoke(long id);
-        OperationResult NotInStoke(long id);
+
         EditProduct GetDetails(long id);
         List<ProductViewModel> Search(ProductSearchModel command);
         List<ProductViewModel> GetProducts();

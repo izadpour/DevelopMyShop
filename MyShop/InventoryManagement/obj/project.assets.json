@@ -174,17 +174,17 @@
           "bin/placeholder/01_Framework.dll": {}
         }
       },
-      "InventoryManagementApplication.Contracts/1.0.0": {
+      "InventoryManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "01_Framework": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/InventoryManagementApplication.Contracts.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/InventoryManagementApplication.Contracts.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
         }
       }
     }
@@ -551,16 +551,16 @@
       "path": "../0_Framework/01_Framework.csproj",
       "msbuildProject": "../0_Framework/01_Framework.csproj"
     },
-    "InventoryManagementApplication.Contracts/1.0.0": {
+    "InventoryManagement.Application.Contracts/1.0.0": {
       "type": "project",
-      "path": "../InventoryManagementApplication.Contracts/InventoryManagementApplication.Contracts.csproj",
-      "msbuildProject": "../InventoryManagementApplication.Contracts/InventoryManagementApplication.Contracts.csproj"
+      "path": "../InventoryManagementApplication.Contracts/InventoryManagement.Application.Contracts.csproj",
+      "msbuildProject": "../InventoryManagementApplication.Contracts/InventoryManagement.Application.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "01_Framework >= 1.0.0",
-      "InventoryManagementApplication.Contracts >= 1.0.0"
+      "InventoryManagement.Application.Contracts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -593,8 +593,8 @@
             "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj": {
               "projectPath": "G:\\DevelopMyShop\\MyShop\\0_Framework\\01_Framework.csproj"
             },
-            "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj": {
-              "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagementApplication.Contracts.csproj"
+            "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+              "projectPath": "G:\\DevelopMyShop\\MyShop\\InventoryManagementApplication.Contracts\\InventoryManagement.Application.Contracts.csproj"
             }
           }
         }

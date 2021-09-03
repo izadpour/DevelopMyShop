@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _01_Framework.Infrastructure;
+using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domian.InventoryAgg;
-using InventoryManagementApplication.Contracts.InventoryAgg;
+using InventoryManagement.Application.Contracts.InventoryAgg;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastructure.EFCore;
 
@@ -44,6 +46,7 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
                 ProductId = x.ProductId,
                 InStoke = x.InStoke,
                 UnitPrice = x.UnitPrice,
+                CreationDate = x.CreationDate.ToFarsi(),
                 CurrentCount = x.CalculateCurrentCount()
             });
 
@@ -57,12 +60,12 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
             //    query = query.Where(x => x.InStoke);
             //}
 
-            if (!searchModel.InStoke)
+            if (searchModel.InStoke)
             {
                 query = query.Where(x => !x.InStoke);
             }
 
-            var inventory = query.AsNoTracking().ToList();
+            var inventory = query.OrderByDescending(x=>x.Id).AsNoTracking().ToList();
 
             var products = _shopContext.Products.Select(x => new {Id = x.Id, Name = x.Name}).AsNoTracking().ToList();
 
@@ -71,6 +74,23 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
                 products.FirstOrDefault(p => p.Id.Equals(x.ProductId))?.Name);
 
             return inventory;
+        }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            var inventory= _context.Inventory.AsNoTracking().FirstOrDefault(x => x.Id.Equals(inventoryId));
+            return inventory.Operations.OrderByDescending(x=>x.Id).Select(x => new InventoryOperationViewModel
+            {
+                Id = x.Id,
+                CurrentCount = x.CurrentCount,
+                Count = x.Count,
+                Description = x.Description,
+                 Operation = x.Operation,
+                 OperatorId = x.OperatorId,
+                 OperationDate = x.OperationDate.ToFarsi(),
+                 Operator = "مدیر",
+                 OrderId = x.OrderId
+            }).ToList();
         }
     }
 }

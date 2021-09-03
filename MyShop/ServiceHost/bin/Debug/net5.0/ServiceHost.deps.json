@@ -1884,10 +1884,33 @@
           "DiscountManagement.Infrastructure.EFCore.dll": {}
         }
       },
+      "InventoryManagement.Application/1.0.0": {
+        "dependencies": {
+          "InventoryManagement.Application.Contracts": "1.0.0",
+          "InventoryManagement.Domian": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Application.dll": {}
+        },
+        "compile": {
+          "InventoryManagement.Application.dll": {}
+        }
+      },
+      "InventoryManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Application.Contracts.dll": {}
+        },
+        "compile": {
+          "InventoryManagement.Application.Contracts.dll": {}
+        }
+      },
       "InventoryManagement.Domian/1.0.0": {
         "dependencies": {
           "01_Framework": "1.0.0",
-          "InventoryManagementApplication.Contracts": "1.0.0"
+          "InventoryManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Domian.dll": {}
@@ -1898,10 +1921,10 @@
       },
       "InventoryManagement.Infrastructure.Configure/1.0.0": {
         "dependencies": {
+          "InventoryManagement.Application": "1.0.0",
+          "InventoryManagement.Application.Contracts": "1.0.0",
           "InventoryManagement.Domian": "1.0.0",
           "InventoryManagement.Infrastructure.EFCore": "1.0.0",
-          "InventoryManagementApplication": "1.0.0",
-          "InventoryManagementApplication.Contracts": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "runtime": {
@@ -1923,29 +1946,6 @@
         },
         "compile": {
           "InventoryManagement.Infrastructure.EFCore.dll": {}
-        }
-      },
-      "InventoryManagementApplication/1.0.0": {
-        "dependencies": {
-          "InventoryManagement.Domian": "1.0.0",
-          "InventoryManagementApplication.Contracts": "1.0.0"
-        },
-        "runtime": {
-          "InventoryManagementApplication.dll": {}
-        },
-        "compile": {
-          "InventoryManagementApplication.dll": {}
-        }
-      },
-      "InventoryManagementApplication.Contracts/1.0.0": {
-        "dependencies": {
-          "01_Framework": "1.0.0"
-        },
-        "runtime": {
-          "InventoryManagementApplication.Contracts.dll": {}
-        },
-        "compile": {
-          "InventoryManagementApplication.Contracts.dll": {}
         }
       },
       "Shop.Management.Infrastructure.Configure/1.0.0": {
@@ -4601,6 +4601,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "InventoryManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "InventoryManagement.Domian/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -4612,16 +4622,6 @@
       "sha512": ""
     },
     "InventoryManagement.Infrastructure.EFCore/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "InventoryManagementApplication/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "InventoryManagementApplication.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

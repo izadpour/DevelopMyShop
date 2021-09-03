@@ -84,6 +84,7 @@ namespace InventoryManagement.Domian.InventoryAgg
             Description = description;
             InventoryId = inventoryId;
             CurrentCount = currentCount;
+            OperationDate=DateTime.Now;
         }
     }
         

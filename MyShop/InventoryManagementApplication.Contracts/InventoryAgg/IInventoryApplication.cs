@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using _01_Framework.Application;
+using InventoryManagement.Application.Contract.Inventory;
 
-namespace InventoryManagementApplication.Contracts.InventoryAgg
+namespace InventoryManagement.Application.Contracts.InventoryAgg
 {
     public interface IInventoryApplication
     {
@@ -12,6 +13,7 @@ namespace InventoryManagementApplication.Contracts.InventoryAgg
         OperationResult Reduce(List<ReduceInventory> command);
         EditInventory GetDetails(long id);
         List<InventoryViewModel> Search(InventorySearchModel searchModel);
+        List<InventoryOperationViewModel> GetOperationLog(long inventoryId);
 
     }
 }
