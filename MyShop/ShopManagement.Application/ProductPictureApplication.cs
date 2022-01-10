@@ -8,10 +8,12 @@ namespace ShopManagement.Application
     public class ProductPictureApplication : IProductPictureApplication
     {
         private readonly IProductPictureRepository _productPictureRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductPictureApplication(IProductPictureRepository productPictureRepository)
+        public ProductPictureApplication(IProductPictureRepository productPictureRepository,IFileUploader fileUploader)
         {
             _productPictureRepository = productPictureRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProductPicture command)
@@ -24,7 +26,8 @@ namespace ShopManagement.Application
             }
             else
             {
-                ProductPicture productPicture = new ProductPicture(command.ProductId, command.Picture,
+                var fileName = _fileUploader.Upload(command.Picture,"Product");
+                ProductPicture productPicture = new ProductPicture(command.ProductId, fileName,
                     command.PictureAlt, command.PictureTitle);
                 _productPictureRepository.Create(productPicture);
                 _productPictureRepository.SaveChanges();
@@ -48,7 +51,8 @@ namespace ShopManagement.Application
             }
             else
             {
-                productPicture.Edit(command.ProductId, command.Picture, command.PictureAlt, command.PictureTitle);
+                var fileName = _fileUploader.Upload(command.Picture,"Product");
+                productPicture.Edit(command.ProductId, fileName, command.PictureAlt, command.PictureTitle);
                 _productPictureRepository.SaveChanges();
                 return result.Succedded();
             }

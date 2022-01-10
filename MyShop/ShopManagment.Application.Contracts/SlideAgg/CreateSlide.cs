@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using _01_Framework.Application;
+using Microsoft.AspNetCore.Http;
 
 namespace ShopManagement.Application.Contracts.SlideAgg
 {
@@ -7,8 +8,8 @@ namespace ShopManagement.Application.Contracts.SlideAgg
     {
         [Display(Name = "عکس")]
         [Required(ErrorMessage = ValidationMessages.RequiredMessage)]
-        [MaxLength(1000,ErrorMessage = ValidationMessages.MaxLengthMessage)]
-        public string Picture { get;   set; }
+        //[MaxLength(1000,ErrorMessage = ValidationMessages.MaxLengthMessage)]
+        public IFormFile Picture { get;   set; }
 
         [Display(Name = "عنوان عکس")]
         [Required(ErrorMessage = ValidationMessages.RequiredMessage)]

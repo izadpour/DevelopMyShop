@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.ComponentModel.DataAnnotations;
 using _01_Framework.Application;
+using Microsoft.AspNetCore.Http;
 
 namespace ShopManagement.Application.Contracts.ProductPictureAgg
 {
@@ -13,7 +14,7 @@ namespace ShopManagement.Application.Contracts.ProductPictureAgg
        [Display(Name = "عکس")]
        [Required(ErrorMessage = ValidationMessages.RequiredMessage)]
        [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLengthMessage)]
-        public string Picture { get;  set; }
+        public IFormFile Picture { get;  set; }
 
         [Display(Name = "تگ عکس")]
         [Required(ErrorMessage = ValidationMessages.RequiredMessage)]

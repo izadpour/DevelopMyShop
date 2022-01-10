@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using _01_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategoryAgg;
 
 namespace ShopManagement.Application.Contracts.ProductAgg
@@ -32,7 +33,7 @@ namespace ShopManagement.Application.Contracts.ProductAgg
 
         [Display(Name = " عکس")]
         [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLengthMessage)]
-        public string Picture { get; set; }
+        public IFormFile Picture { get; set; }
 
         [Display(Name = "تگ تصویر")]
         [MaxLength(255, ErrorMessage = ValidationMessages.MaxLengthMessage)]

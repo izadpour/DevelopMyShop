@@ -8,10 +8,12 @@ namespace ShopManagement.Application
     public class ProductApplication : IProductApplication
     {
         private readonly IProductRepository _productRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductApplication(IProductRepository productRepository)
+        public ProductApplication(IProductRepository productRepository, IFileUploader fileUploader)
         {
             _productRepository = productRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProduct command)
@@ -23,8 +25,9 @@ namespace ShopManagement.Application
             }
 
 
+            var pictureName= _fileUploader.Upload(command.Picture,command.Slug.Slugify());
             Product product = new Product(command.Name, command.Code, command.ShortDescription,
-                command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords,
+                command.Description, pictureName, command.PictureAlt, command.PictureTitle, command.Keywords,
                 command.MetaDescription, command.Slug.Slugify(), command.CategoryId);
             _productRepository.Create(product);
             _productRepository.SaveChanges();
@@ -44,9 +47,9 @@ namespace ShopManagement.Application
             {
                 return operationResult.Failed(ApplicationMessages.DuplicateRecord);
             }
-
+            var pictureName = _fileUploader.Upload(command.Picture,command.Slug.Slugify());
             product.Edit(command.Name, command.Code,  command.ShortDescription,
-                command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords,
+                command.Description, pictureName, command.PictureAlt, command.PictureTitle, command.Keywords,
                 command.MetaDescription, command.Slug.Slugify(), command.CategoryId);
 
             _productRepository.SaveChanges();

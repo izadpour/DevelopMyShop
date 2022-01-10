@@ -9,3 +9,4 @@ G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\net5.0\01_Framework.csproj.CoreCom
 G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\net5.0\01_Framework.dll
 G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\net5.0\ref\01_Framework.dll
 G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\net5.0\01_Framework.pdb
+G:\DevelopMyShop\MyShop\0_Framework\obj\Debug\net5.0\01_Framework.csproj.AssemblyReference.cache

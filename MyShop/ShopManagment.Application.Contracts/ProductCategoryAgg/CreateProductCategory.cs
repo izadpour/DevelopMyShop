@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using _01_Framework.Application;
+using Microsoft.AspNetCore.Http;
 
 namespace ShopManagement.Application.Contracts.ProductCategoryAgg
 {
@@ -17,7 +18,7 @@ namespace ShopManagement.Application.Contracts.ProductCategoryAgg
 
         [Display(Name = "عکس")]
         [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLengthMessage)]
-        public string Picture { get; set; }
+        public IFormFile Picture { get; set; }
 
         [Display(Name = "تگ عکس")]
         [MaxLength(255, ErrorMessage = ValidationMessages.MaxLengthMessage)]

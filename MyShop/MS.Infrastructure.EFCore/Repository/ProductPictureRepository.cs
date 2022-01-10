@@ -23,7 +23,7 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
                 .Select(x => new EditProductPicture
                 {
                     Id = x.Id,
-                    Picture = x.Picture,
+                    //Picture = x.Picture,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     ProductId = x.ProductId
