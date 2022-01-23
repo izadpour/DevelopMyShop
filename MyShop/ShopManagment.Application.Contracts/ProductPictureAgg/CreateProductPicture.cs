@@ -13,7 +13,7 @@ namespace ShopManagement.Application.Contracts.ProductPictureAgg
 
        [Display(Name = "عکس")]
        [Required(ErrorMessage = ValidationMessages.RequiredMessage)]
-       [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLengthMessage)]
+     
         public IFormFile Picture { get;  set; }
 
         [Display(Name = "تگ عکس")]

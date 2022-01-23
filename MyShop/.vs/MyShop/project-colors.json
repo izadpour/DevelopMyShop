@@ -15,7 +15,57 @@
       "ProjectGuid": "f5ac1c1b-003c-46b6-9b48-fd13ac242a4f",
       "DisplayName": "ServiceHost",
       "ColorIndex": 1
+    },
+    "8fce5c02-2281-43e6-987c-1023c78e5e80": {
+      "ProjectGuid": "8fce5c02-2281-43e6-987c-1023c78e5e80",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 2
+    },
+    "4e7c8eca-a196-4c44-ae5e-40e08649aaf4": {
+      "ProjectGuid": "4e7c8eca-a196-4c44-ae5e-40e08649aaf4",
+      "DisplayName": "Shop.Management.Infrastructure.Configure",
+      "ColorIndex": 3
+    },
+    "82df7ae8-5f0d-40ae-8ae3-9eb4ee4cf5d2": {
+      "ProjectGuid": "82df7ae8-5f0d-40ae-8ae3-9eb4ee4cf5d2",
+      "DisplayName": "ShopManagement.Application",
+      "ColorIndex": 4
+    },
+    "ee67428f-6637-485b-9140-0e096f012a35": {
+      "ProjectGuid": "ee67428f-6637-485b-9140-0e096f012a35",
+      "DisplayName": "Shop.Management.Infrastructure.EFCore",
+      "ColorIndex": 5
+    },
+    "1f8db455-42ea-496e-9c2a-98c89313c921": {
+      "ProjectGuid": "1f8db455-42ea-496e-9c2a-98c89313c921",
+      "DisplayName": "ShopManagement.Application.Contracts",
+      "ColorIndex": 6
+    },
+    "47a63290-d6e8-45da-a36e-2aec6df5f536": {
+      "ProjectGuid": "47a63290-d6e8-45da-a36e-2aec6df5f536",
+      "DisplayName": "DiscountManagement.Application",
+      "ColorIndex": 7
+    },
+    "253be078-2c99-428f-9edc-23c090e6122f": {
+      "ProjectGuid": "253be078-2c99-428f-9edc-23c090e6122f",
+      "DisplayName": "DiscountManagement.Application.Contracts",
+      "ColorIndex": 8
+    },
+    "b693ddca-94dc-4cd2-b587-1061f57b81bd": {
+      "ProjectGuid": "b693ddca-94dc-4cd2-b587-1061f57b81bd",
+      "DisplayName": "DiscountManagement.Domain",
+      "ColorIndex": 9
+    },
+    "174f8f8d-f511-48d3-8025-b3aead7d8970": {
+      "ProjectGuid": "174f8f8d-f511-48d3-8025-b3aead7d8970",
+      "DisplayName": "02_MyShopQuery",
+      "ColorIndex": 10
+    },
+    "84631106-581a-43b5-8c14-0c52632db16b": {
+      "ProjectGuid": "84631106-581a-43b5-8c14-0c52632db16b",
+      "DisplayName": "DiscountManagement.Infrastructure.Configure",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 12
 }

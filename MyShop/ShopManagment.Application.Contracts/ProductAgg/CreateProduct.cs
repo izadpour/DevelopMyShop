@@ -32,7 +32,7 @@ namespace ShopManagement.Application.Contracts.ProductAgg
         public string Description { get; set; }
 
         [Display(Name = " عکس")]
-        [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLengthMessage)]
+        
         public IFormFile Picture { get; set; }
 
         [Display(Name = "تگ تصویر")]

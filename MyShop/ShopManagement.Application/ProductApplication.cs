@@ -26,6 +26,7 @@ namespace ShopManagement.Application
 
 
             var pictureName= _fileUploader.Upload(command.Picture,command.Slug.Slugify());
+
             Product product = new Product(command.Name, command.Code, command.ShortDescription,
                 command.Description, pictureName, command.PictureAlt, command.PictureTitle, command.Keywords,
                 command.MetaDescription, command.Slug.Slugify(), command.CategoryId);

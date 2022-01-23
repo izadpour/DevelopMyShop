@@ -1,3 +1,4 @@
+G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\appsettings.Development.json
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\appsettings.json
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\ServiceHost.exe
@@ -110,7 +111,6 @@ G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-arm\native\Mic
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
@@ -157,11 +157,12 @@ G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.GeneratedMSBuil
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfoInputs.cache
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfo.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CoreCompileInputs.cache
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorAssemblyInfo.cache
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorAssemblyInfo.cs
-G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\staticwebassets\ServiceHost.StaticWebAssets.Manifest.cache
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\scopedcss\bundle\ServiceHost.styles.css
+G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\staticwebassets\ServiceHost.StaticWebAssets.Manifest.cache
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.TagHelpers.input.cache
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.TagHelpers.output.cache
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorCoreGenerate.cache
@@ -211,4 +212,3 @@ G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.dll
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 G:\DevelopMyShop\MyShop\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
-G:\DevelopMyShop\MyShop\ServiceHost\bin\Debug\net5.0\ServiceHost.StaticWebAssets.xml

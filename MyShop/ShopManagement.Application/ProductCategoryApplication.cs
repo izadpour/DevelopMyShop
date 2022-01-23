@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 using _01_Framework.Application;
 using ShopManagement.Application.Contracts.ProductCategoryAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
@@ -9,11 +10,11 @@ namespace ShopManagement.Application
     {
         private readonly IProductCategoryRepository _productCategoryRepository;
         private readonly IFileUploader _fileUploader;
-
         public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _productCategoryRepository = productCategoryRepository;
             _fileUploader = fileUploader;
+        
         }
 
 

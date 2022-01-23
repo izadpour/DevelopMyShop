@@ -12,6 +12,8 @@
         public const string RequiredLaw = "قوانین سایت را باید بپذیرید";
         public const string MaxLengthMessage = "{0}نباید بیشتر از {1} باشد";
         public const string RequiredMessageIntType = "مقدار عددی وارد کنید";
+        public const string MaxFileSize = "فایل حجیم تر از حد مجاز است";
+        public const string InValidFileFormat = "فرمت فایل مجاز نیست";
         //---------category
         public const string DuplicateFaTitleMessage = " عنوان فارسی تکراری است";
         public const string DuplicateEnTitleMessage = " عنوان انگلیسی تکراری است";

@@ -17,8 +17,9 @@ namespace ShopManagement.Application.Contracts.ProductCategoryAgg
         public string Description { get; set; }
 
         [Display(Name = "عکس")]
-        [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLengthMessage)]
+       
         public IFormFile Picture { get; set; }
+     
 
         [Display(Name = "تگ عکس")]
         [MaxLength(255, ErrorMessage = ValidationMessages.MaxLengthMessage)]

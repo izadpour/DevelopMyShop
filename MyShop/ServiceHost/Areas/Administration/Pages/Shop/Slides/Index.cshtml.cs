@@ -46,8 +46,14 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 
         public IActionResult OnPostCreate(CreateSlide command)
         {
-            var result = _slideApplication.Create(command);
-            return new JsonResult(result);
+            if (ModelState.IsValid)
+            {
+                var result = _slideApplication.Create(command);
+                return new JsonResult(result);
+            }
+
+            return new JsonResult(null);
+
         }
 
         public IActionResult OnPostEdit(EditSlide command)
