@@ -188,7 +188,7 @@ jQuery.validator.addMethod("maxFileSize",
     function (value, element, params) {
         var size = element.files[0].size;
         var maxSize = 1 * 1024 * 1024;
-       
+        
         if (size > maxSize)
             return false;
         else {
@@ -199,11 +199,12 @@ jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
 jQuery.validator.addMethod("fileExtentionLimit",
     function (value, element, params) {
-        var fileExtention = ['jpeg', 'jpg', 'png'];
+        var fileExtentions = ['jpeg', 'jpg', 'png'];
+        fileName = value.toLowerCase();
+        fileExtension = fileName.substr((fileName.lastIndexOf('.') + 1));
+        
 
-        console.log($.inArray(element.files[0].val().split('.').pop().toLowerCase())+'f');
-
-        if ($.inArray(value.split('.').toLowerCase(), fileExtention) == -1) {
+        if ($.inArray(fileExtension, fileExtentions) == -1) {
            
             return false;
         }
