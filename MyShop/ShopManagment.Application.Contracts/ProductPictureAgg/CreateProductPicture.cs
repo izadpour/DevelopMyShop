@@ -13,8 +13,9 @@ namespace ShopManagement.Application.Contracts.ProductPictureAgg
 
        [Display(Name = "عکس")]
        [Required(ErrorMessage = ValidationMessages.RequiredMessage)]
-     
-        public IFormFile Picture { get;  set; }
+       [MaxFileSize(1 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
+       [FileExtentionLimitation(new string[] { ".jpeg", ".jpg", ".png" }, ErrorMessage = ValidationMessages.InValidFileFormat)]
+       public IFormFile Picture { get; set; }
 
         [Display(Name = "تگ عکس")]
         [Required(ErrorMessage = ValidationMessages.RequiredMessage)]

@@ -21,7 +21,23 @@ namespace ShopManagement.Domain.ProductAgg
         public ProductCategory Category { get; private set; }
         public ICollection<ProductPicture> ProductPictures { get; private set; }
 
-        public Product(string name, string code,  string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug, long categoryId)
+        public Product(string name, string code, string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug, long categoryId)
+        {
+            Name = name;
+            Code = code;
+            ShortDescription = shortDescription;
+            Description = description;
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
+            PictureAlt = pictureAlt;
+            PictureTitle = pictureTitle;
+            Keywords = keywords;
+            MetaDescription = metaDescription;
+            Slug = slug;
+            CategoryId = categoryId;
+        }
+
+        public void Edit(string name, string code, string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug, long categoryId)
         {
             Name = name;
             Code = code;
@@ -34,24 +50,9 @@ namespace ShopManagement.Domain.ProductAgg
             MetaDescription = metaDescription;
             Slug = slug;
             CategoryId = categoryId;
+
         }
 
-        public void Edit(string name, string code,  string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug, long categoryId)
-        {
-            Name = name;
-            Code = code;
-            ShortDescription = shortDescription;
-            Description = description;
-            Picture = picture;
-            PictureAlt = pictureAlt;
-            PictureTitle = pictureTitle;
-            Keywords = keywords;
-            MetaDescription = metaDescription;
-            Slug = slug;
-            CategoryId = categoryId;
-           
-        }
 
-       
     }
 }

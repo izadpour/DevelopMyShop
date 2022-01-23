@@ -10,7 +10,7 @@ namespace ShopManagement.Application.Contracts.SlideAgg
         [Required(ErrorMessage = ValidationMessages.RequiredMessage)]
         [MaxFileSize(1 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
         [FileExtentionLimitation(new string[] { ".jpeg", ".jpg", ".png" },ErrorMessage = ValidationMessages.InValidFileFormat)]
-        public IFormFile Picture { get; set; }
+        public  IFormFile Picture { get; set; }
 
         [Display(Name = "عنوان عکس")]
         [Required(ErrorMessage = ValidationMessages.RequiredMessage)]
