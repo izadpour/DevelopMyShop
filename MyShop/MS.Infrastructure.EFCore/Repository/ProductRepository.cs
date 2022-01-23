@@ -39,6 +39,12 @@ namespace Shop.Management.Infrastructure.EFCore.Repository
             return editProduct;
         }
 
+        public Product GetProductWithCategory(long id)
+        {
+            return _context.Products.Include(x => x.Category)
+                .FirstOrDefault(x => x.Id.Equals(id));
+        }
+
         public List<ProductViewModel> GetProducts()
         {
             return _context.Products

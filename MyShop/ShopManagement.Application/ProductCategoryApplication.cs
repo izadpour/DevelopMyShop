@@ -10,6 +10,7 @@ namespace ShopManagement.Application
     {
         private readonly IProductCategoryRepository _productCategoryRepository;
         private readonly IFileUploader _fileUploader;
+     
         public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _productCategoryRepository = productCategoryRepository;
